@@ -1,0 +1,17 @@
+<form class="form">
+    <mat-form-field class="form_field" appearance="outline">
+        <mat-label class="form_field_label">Cifrado César</mat-label>
+        <textarea class="form_field_input" matInput placeholder="Escribe algo..." maxlength="50" #oracion></textarea>
+        <mat-hint align="end">{{oracion.value.length}}/50</mat-hint>
+    </mat-form-field>
+
+<mat-form-field appearance="fill">
+    <mat-label>Favorite food</mat-label>
+    <mat-select [(value)]="seleccion">
+        <mat-option>None</mat-option>
+      <mat-option value="Banana">Banana</mat-option>
+      <mat-option value="Coconout">Coconout</mat-option>
+      <mat-option value="Pinneaple">Pinneaple</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <h1 style="color: #fff;">{{seleccion}}</h1>

@@ -1,0 +1,8 @@
+<button mat-button [matMenuTriggerFor]="menu" class="btn-menu">
+    <mat-icon id="icono-alfabeto">sort_by_alpha</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <mat-card class="mat-card">
+    <p class="mat-card_alfabeto" *ngFor="let letra of alfabeto">{{letra}}</p>
+  </mat-card>
+</mat-menu>
