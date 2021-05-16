@@ -1,0 +1,54 @@
+.contenedor{
+    background-color: blanchedalmond;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contenedor_texto{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    height: 30%;
+    float: left;
+}
+.contenedor_seleccion{
+    background-color: cadetblue;
+    width: 30%;
+    height: 30%;
+    float: left;
+}
+.contenedor_sentido{
+    background-color: brown;
+    width: 30%;
+    height: 30%;
+    float: left;
+}
+.contenedor_btn{
+    background-color: cyan;
+    float: left;
+    width: 100%;
+}
+.contenedor_spinner{
+    background-color: darkgray;
+    float: left;
+    width: 100%;
+}
+.contenedor_texto-cifrado{
+    background-color: darkorange;
+    float: left;
+    width: 100%;
+}
+/*Texto a encriptar*/
+.form_field{
+    width: 90%;
+    margin: 0 auto;
+}
+.form_field_label{
+    color: #c2185b;
+}
+.form_field_text-area{
+    text-align: center;
+    font-size: 1.5em;
+}

@@ -22,6 +22,11 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+
 
 @NgModule({
   declarations: [
@@ -40,7 +45,11 @@ import { MatSelectModule } from '@angular/material/select';
     MatInputModule,
     MatButtonModule,
     MatFormFieldModule,
-    MatSelectModule
+    MatSelectModule,
+    MatCheckboxModule,
+    MatRadioModule,
+    MatButtonToggleModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

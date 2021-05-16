@@ -16,7 +16,7 @@
 #icono-alfabeto:hover{
     background-color: #fff;
     color: #c2185b;
-    box-shadow: 0 0 12px;
+    box-shadow: 0 0 12px #c2185b;
     cursor: pointer;
 }
 .mat-card{

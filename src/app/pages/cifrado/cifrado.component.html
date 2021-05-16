@@ -1,17 +1,60 @@
-<form class="form">
-    <mat-form-field class="form_field" appearance="outline">
-        <mat-label class="form_field_label">Cifrado César</mat-label>
-        <textarea class="form_field_input" matInput placeholder="Escribe algo..." maxlength="50" #oracion></textarea>
-        <mat-hint align="end">{{oracion.value.length}}/50</mat-hint>
-    </mat-form-field>
-
-<mat-form-field appearance="fill">
-    <mat-label>Favorite food</mat-label>
-    <mat-select [(value)]="seleccion">
-        <mat-option>None</mat-option>
-      <mat-option value="Banana">Banana</mat-option>
-      <mat-option value="Coconout">Coconout</mat-option>
-      <mat-option value="Pinneaple">Pinneaple</mat-option>
-    </mat-select>
-  </mat-form-field>
-  <h1 style="color: #fff;">{{seleccion}}</h1>
+<div class="contenedor">
+    <div class="contenedor_texto">
+        <mat-form-field class="form_field" appearance="outline">
+            <mat-label class="form_field_label">CIFRADO CÉSAR</mat-label>
+            <textarea class="form_field_text-area" matInput placeholder="Escribe algo..." maxlength="50" #oracion></textarea>
+            <mat-hint align="end">{{oracion.value.length}}/50</mat-hint>
+        </mat-form-field>
+    </div>
+    <div class="contenedor_seleccion">
+        <mat-form-field appearance="outline">
+            <mat-label>ROTAR</mat-label>
+            <mat-select [(value)]="seleccion">
+                <mat-option>None</mat-option>
+                <mat-option value="ROT1">ROT1</mat-option>
+                <mat-option value="ROT2">ROT2</mat-option>
+                <mat-option value="ROT3">ROT3</mat-option>
+                <mat-option value="ROT4">ROT4</mat-option>
+                <mat-option value="ROT5">ROT5</mat-option>
+                <mat-option value="ROT6">ROT6</mat-option>
+                <mat-option value="ROT7">ROT7</mat-option>
+                <mat-option value="ROT8">ROT8</mat-option>
+                <mat-option value="ROT9">ROT9</mat-option>
+                <mat-option value="ROT10">ROT10</mat-option>
+                <mat-option value="ROT11">ROT11</mat-option>
+                <mat-option value="ROT12">ROT12</mat-option>
+                <mat-option value="ROT13">ROT13</mat-option>
+                <mat-option value="ROT14">ROT14</mat-option>
+                <mat-option value="ROT15">ROT15</mat-option>
+                <mat-option value="ROT16">ROT16</mat-option>
+                <mat-option value="ROT17">ROT17</mat-option>
+                <mat-option value="ROT18">ROT18</mat-option>
+                <mat-option value="ROT19">ROT19</mat-option>
+                <mat-option value="ROT20">ROT20</mat-option>
+                <mat-option value="ROT21">ROT21</mat-option>
+                <mat-option value="ROT22">ROT22</mat-option>
+                <mat-option value="ROT23">ROT23</mat-option>
+                <mat-option value="ROT24">ROT24</mat-option>
+                <mat-option value="ROT25">ROT25</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <h1 style="color: #fff;">{{seleccion}}</h1>
+    </div>
+    <div class="contenedor_sentido">
+        <mat-radio-group>
+            <mat-radio-button value="izquierda">Rotar hacia la izquierda</mat-radio-button><br>
+            <mat-radio-button value="derecha">Rotar hacia la derecha</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    <div class="contenedor_btn">
+        <button mat-raised-button color="primary">Cifrar</button>
+    </div>
+    <div class="contenedor_spinner">
+        <mat-spinner></mat-spinner>
+    </div>
+    <div class="contenedor_texto-cifrado">
+        <mat-card>
+            <p>Texto Cifrado</p>
+        </mat-card>
+    </div>
+</div>
