@@ -1,8 +1,22 @@
+.contenedor-principal{
+    width: 100%;
+    height: 80%;
+}
+.contenedor-principal_menu{
+    width: 5%;
+    height: 100%;
+    float: right;
+    padding-right: 1em;
+}
+.contenedor-principal_cifrado{
+    width: 95%;
+    height: 100%;
+}
 .btn-menu{
     background-color: transparent;
     border: none;
     float: right;
-    margin-right: 1em;
+    margin: 0 auto;
 }
 #icono-alfabeto{
     background-color: #c2185b;
@@ -12,6 +26,7 @@
     padding: 0.2em;
     width: auto;
     height: auto;
+    transition: background 0.5s, color 0.5s, box-shadow 0.5s;
 }
 #icono-alfabeto:hover{
     background-color: #fff;

@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CifradoComponent } from './pages/cifrado/cifrado.component';
+import { AlfabetoComponent } from './pages/alfabeto/alfabeto.component';
+import { OpcionesComponent } from './pages/opciones/opciones.component';
 
 const routes: Routes = [
-  {path: 'cifrado', component: CifradoComponent}
+  {path: 'inicio', component: OpcionesComponent},
+  {path: 'cifrado', component: AlfabetoComponent}
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-exports: [RouterModule]
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }

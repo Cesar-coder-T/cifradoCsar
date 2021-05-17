@@ -1,0 +1,37 @@
+.contenedor-opciones{
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+.contenedor-opciones_sub{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin: 0 4.2%;
+}
+.contenedor-opciones_sub_carta{
+    box-shadow: 0 0 12px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #c308c3;
+    transition: box-shadow 0.3s;
+}
+.contenedor-opciones_sub_carta:hover{
+    background-color: #fff;
+    box-shadow: 0 0 12px #c308c3;
+    cursor: pointer;
+}
+.contenedor-opciones_sub_carta_icono{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20em;
+}
+.contenedor-opciones_sub_carta_icono:hover{
+    color: #c308c3;
+}

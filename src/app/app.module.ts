@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 /**
  * Dependencias que permiten usar rutas y animaciones.
  */
@@ -26,16 +27,19 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { OpcionesComponent } from './pages/opciones/opciones.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     AlfabetoComponent,
-    CifradoComponent
+    CifradoComponent,
+    OpcionesComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,

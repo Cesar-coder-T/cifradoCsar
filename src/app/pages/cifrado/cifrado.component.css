@@ -1,54 +1,86 @@
 .contenedor{
-    background-color: blanchedalmond;
-    width: 90%;
-    height: 80%;
-    margin: 0 auto;
     text-align: center;
 }
+.contenedor_nota{
+    margin-top: 0.5em;
+}
+.contenedor_nota p{
+    color: #fff;
+    font-size: 15px;
+}
 .contenedor_texto{
-    background-color: blueviolet;
-    display: flex;
-    align-items: center;
-    width: 40%;
-    height: 30%;
-    float: left;
-}
-.contenedor_seleccion{
-    background-color: cadetblue;
-    width: 30%;
-    height: 30%;
-    float: left;
-}
-.contenedor_sentido{
-    background-color: brown;
-    width: 30%;
-    height: 30%;
-    float: left;
-}
-.contenedor_btn{
-    background-color: cyan;
-    float: left;
-    width: 100%;
-}
-.contenedor_spinner{
-    background-color: darkgray;
-    float: left;
-    width: 100%;
-}
-.contenedor_texto-cifrado{
-    background-color: darkorange;
-    float: left;
-    width: 100%;
-}
-/*Texto a encriptar*/
-.form_field{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
-.form_field_label{
-    color: #c2185b;
+.form_field{
+    width: 60%;
+    height: auto;
 }
 .form_field_text-area{
     text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    height: auto;
+    color: #fff;
+}
+.form_field_text-area::placeholder{
+    color: #c2185b;
+}
+mat-label{
+    color: #c2185b;
+    font-weight: bold;
+}
+mat-hint{
     font-size: 1.5em;
+    color: #c2185b;
+}
+.contenedor_sentido_izquierda{
+    width: 50%;
+    float: left;
+}
+.contenedor_sentido_derecha{
+    width: 50%;
+    float: left;
+}
+.contenedor_sentido input{
+    width: 1.3em;
+    height: 1.3em;
+    cursor: pointer;
+    color: #c2185b;
+}
+h2{
+    display: inline;
+    color: #fff;
+}
+.contenedor_btn{
+    margin-top: 5em;
+    margin-bottom: 4em;
+}
+.contenedor_btn button{
+    font-size: 1.5em;
+    width: 9vw;
+    padding: 0.5em;
+}
+.contenedor_btn button:hover{
+    color: #c2185b;
+    background-color: #fff;
+    box-shadow: 0 0 12px #c2185b;
+    font-weight: bold;
+}
+.contenedor_texto-cifrado{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+mat-card{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+    box-shadow: transparent;
+}
+mat-card p{
+    font-size: 1.5vw;
+    white-space: nowrap;
 }
