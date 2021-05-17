@@ -28,6 +28,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { OpcionesComponent } from './pages/opciones/opciones.component';
+import { DecifradoComponent } from './pages/decifrado/decifrado.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { OpcionesComponent } from './pages/opciones/opciones.component';
     AppComponent,
     AlfabetoComponent,
     CifradoComponent,
-    OpcionesComponent
+    OpcionesComponent,
+    DecifradoComponent
   ],
   imports: [
     BrowserModule,

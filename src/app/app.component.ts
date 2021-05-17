@@ -7,9 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cifradoCsar';
-  estado: boolean;
+  estadoC: boolean;
+  estadoD: boolean;
 
   constructor(){
-    this.estado = false;
+    this.estadoC = false;
+    this.estadoD = false;
   }
 }

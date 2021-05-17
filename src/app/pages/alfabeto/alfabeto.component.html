@@ -8,6 +8,7 @@
         <p class="mat-card_alfabeto" *ngFor="let letra of alfabeto">{{letra}}</p>
       </mat-card>
     </mat-menu>
+    <mat-icon class="iconoD" routerLink="/decifrado">title</mat-icon>
   </div>
   <div class="contenedor-principal_cifrado">
     <app-cifrado [abc]="alfabeto"></app-cifrado>

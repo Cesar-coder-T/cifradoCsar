@@ -1,5 +1,5 @@
-body{
-  background-color: rgb(39, 39, 39);
+mat-toolbar{
+  height: 12vh;
 }
 span{
   font-size: 20px;
@@ -7,7 +7,7 @@ span{
   text-align: center;
 }
 .wrapper{
-    min-height: calc(87.2% - 3rem);
+    min-height: calc(84.4% - 3rem);
 }
 .footer{
     background-color: rgb(0 26 31);

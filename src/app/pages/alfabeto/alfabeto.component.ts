@@ -27,7 +27,8 @@ export class AlfabetoComponent implements OnInit {
    */
   ngOnInit(): void {
     this.generarAlfabeto();
-    this.estado.estado = true;
+    this.estado.estadoC = true;
+    this.estado.estadoD = false;
   }
 
   /**

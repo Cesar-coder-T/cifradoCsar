@@ -16,12 +16,12 @@
     height: 100%;
     border-radius: 10px;
     text-align: center;
-    background-color: #c308c3;
-    transition: box-shadow 0.3s;
+    background-color: #00695c;
+    transition: box-shadow 0.5s;
 }
 .contenedor-opciones_sub_carta:hover{
     background-color: #fff;
-    box-shadow: 0 0 12px #c308c3;
+    box-shadow: 0 0 12px #00695c;
     cursor: pointer;
 }
 .contenedor-opciones_sub_carta_icono{
@@ -33,5 +33,5 @@
     font-size: 20em;
 }
 .contenedor-opciones_sub_carta_icono:hover{
-    color: #c308c3;
+    color: #00695c;
 }

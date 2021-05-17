@@ -19,7 +19,7 @@
     margin: 0 auto;
 }
 #icono-alfabeto{
-    background-color: #c2185b;
+    background-color: #00695c;
     color: #fff;
     font-size: 3em;
     border-radius: 50%;
@@ -30,8 +30,25 @@
 }
 #icono-alfabeto:hover{
     background-color: #fff;
-    color: #c2185b;
-    box-shadow: 0 0 12px #c2185b;
+    color: #00695c;
+    box-shadow: 0 0 12px #00695c;
+    cursor: pointer;
+}
+.iconoD{
+    background-color: #00695c;
+    color: #fff;
+    font-size: 3em;
+    border-radius: 50%;
+    padding: 0.2em;
+    width: auto;
+    height: auto;
+    margin-top: 0.2em;
+    float: right;
+    transition: background 0.5s, color 0.5s, box-shadow 0.5s;
+}.iconoD:hover{
+    background-color: #fff;
+    color: #00695c;
+    box-shadow: 0 0 12px #00695c;
     cursor: pointer;
 }
 .mat-card{
@@ -43,4 +60,6 @@
     display: inline-flex;
     font-size: 1.5em;
     margin: 0.5em;
+    color: #00695c;
+    font-weight: 500;
 }
