@@ -6,6 +6,13 @@ import { AppComponent } from './../../app.component';
   templateUrl: './alfabeto.component.html',
   styleUrls: ['./alfabeto.component.css']
 })
+/**
+ * Clase encargada de generar y msotrar el alfabeto inglés.
+ * @autor César Augusto Rodríguez Téllez
+ * @autor Diego Anderson Cobos Alarcón.
+ * @since 1.0.0
+ * @version 1.1.5
+ */
 export class AlfabetoComponent implements OnInit {
 
   /**
@@ -19,6 +26,9 @@ export class AlfabetoComponent implements OnInit {
     private estado: AppComponent
   ) {
     this.alfabeto = [];
+    this.estado.estadoC = true;
+    this.estado.estadoD = false;
+    this.estado.estado = false;
   }
 
   /**
@@ -27,8 +37,6 @@ export class AlfabetoComponent implements OnInit {
    */
   ngOnInit(): void {
     this.generarAlfabeto();
-    this.estado.estadoC = true;
-    this.estado.estadoD = false;
   }
 
   /**

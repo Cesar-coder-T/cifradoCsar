@@ -6,6 +6,14 @@ import { AppComponent } from './../../app.component';
   templateUrl: './decifrado.component.html',
   styleUrls: ['./decifrado.component.css']
 })
+/**
+ * Clase encargada de decifrar el texto ingresado
+ * por el usuario.
+ * @autor César Augusto Rodríguez Téllez
+ * @autor Diego Anderson Cobos Alarcón.
+ * @since 1.0.0
+ * @version 1.1.5
+ */
 export class DecifradoComponent implements OnInit {
   /**
    * Variable de tipo "string", la cual, guardará el texto a decifrar.
@@ -50,6 +58,7 @@ export class DecifradoComponent implements OnInit {
      this.textoDecifrado = "";
      this.estado.estadoD = true;
      this.estado.estadoC = false;
+     this.estado.estado = false;
    }
  
    ngOnInit(): void {

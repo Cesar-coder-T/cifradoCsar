@@ -5,6 +5,14 @@ import { Component, OnInit, Input} from '@angular/core';
   templateUrl: './cifrado.component.html',
   styleUrls: ['./cifrado.component.css']
 })
+/**
+ * Clase encargada de cifrar el texto ingresado
+ * por el usuario.
+ * @autor César Augusto Rodríguez Téllez
+ * @autor Diego Anderson Cobos Alarcón.
+ * @since 1.0.0
+ * @version 1.1.5
+ */
 export class CifradoComponent implements OnInit {
   /**
    * Variable de tipo "string", la cual, guardará el texto a cifrar.
